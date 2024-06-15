@@ -15,11 +15,14 @@ body {
 .slideshow {
     margin: 15px auto 0px auto;
     text-align: center;
+    width: 500px;
+    height: auto;
 }
 
 img {
     border-radius: 15px;
     border: solid;
+    width: 100%;
 }
 
 .recipe_list {
@@ -33,5 +36,13 @@ img {
 @media (max-width: 800px){
     .recipe_list {
         margin: 20px;
+    }
+}
+
+@media (max-width: 500px){
+    .slideshow {
+        margin: 20px;
+        width: auto;
+        height: auto;
     }
 }
