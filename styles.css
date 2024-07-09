@@ -1,18 +1,19 @@
 h1 {
-    background: linear-gradient(rgb(186, 71, 4), rgb(220, 75, 46), rgb(186, 71, 4));
+    background: linear-gradient(rgb(186, 95, 4), rgb(205, 84, 4), rgb(205, 84, 4), rgb(205, 84, 4), rgb(186, 95, 4));
     margin: 0px auto;
     padding: 28px;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    border-bottom: 7px solid rgba(30, 83, 228, 0.9);
 }
 
 body {
     margin: 0;
-    background-color: #aabaea;
+    background-color: #adadae;
 }
 
-img {
+.top-image {
     border-radius: 15px;
     border: solid;
     width: 100%;
@@ -26,10 +27,13 @@ img {
 
 .recipe_list {
     margin: 20px auto;
-    background-color: #8f8a89ee;
+    background-color: rgb(205, 84, 4);
     border-radius: 15px;
     max-width: 900px;
     font-size: 18px;
+    overflow: hidden;
+    border: solid rgb(186, 95, 4) 3px;
+    box-shadow: 0 0 3px 3px rgba(186, 34, 4, 0.2);
 }
 
 @media (max-width: 940px){
@@ -44,4 +48,17 @@ img {
         width: auto;
         height: auto;
     }
+}
+
+.recipe {
+    display: block;
+    background-color: #908787;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin: 8px;
+    border: solid rgba(0, 0, 0, 0.6) 3px;
+}
+
+.preview-img {
+    width: 50px;
 }
