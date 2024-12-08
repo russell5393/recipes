@@ -1,64 +1,36 @@
+header {
+    background-image: url("images/bbq-meats.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid rgb(8, 8, 8);
+}
+
+.title_background_color {
+    background-color: rgba(196, 5, 5, 0.95);
+    border-radius: 25px 0 25px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px;
+    border: 5px solid rgba(0, 0, 0, 1);
+    @media (max-width: 940px){
+        margin: 5px;
+    }
+}
+
 h1 {
-    background: linear-gradient(rgb(186, 95, 4), rgb(205, 84, 4), rgb(205, 84, 4), rgb(205, 84, 4), rgb(186, 95, 4));
-    margin: 0px auto;
-    padding: 28px;
     text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 35px;
-    border-bottom: 7px solid rgba(30, 83, 228, 0.9);
+    width: 250px;
+    margin: 12px;
+    @media (max-width: 940px){
+        margin: 5px;
+    }
 }
 
 body {
     margin: 0;
     background-color: #adadae;
-}
-
-.top-image {
-    border-radius: 15px;
-    border: solid;
-    width: 100%;
-}
-
-.slideshow {
-    margin: 20px auto;
-    max-width: 550px;
-    height: auto;
-}
-
-.recipe_list {
-    margin: 20px auto;
-    background-color: rgb(205, 84, 4);
-    border-radius: 15px;
-    max-width: 900px;
-    font-size: 18px;
-    overflow: hidden;
-    border: solid rgb(186, 95, 4) 3px;
-    box-shadow: 0 0 3px 3px rgba(186, 34, 4, 0.2);
-}
-
-@media (max-width: 940px){
-    .recipe_list {
-        margin: 20px;
-    }
-}
-
-@media (max-width: 710px){
-    .slideshow {
-        margin: 20px 80px;
-        width: auto;
-        height: auto;
-    }
-}
-
-.recipe {
-    display: block;
-    background-color: #908787;
-    padding: 3px 10px;
-    border-radius: 20px;
-    margin: 8px;
-    border: solid rgba(0, 0, 0, 0.6) 3px;
-}
-
-.preview-img {
-    width: 50px;
 }
